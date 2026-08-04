@@ -2,23 +2,25 @@ class Solution
 {
     public int majorityElement(int[] nums) 
     {
-        Map<Integer,Integer> dict=new HashMap<>();
+        int element=0;
+        int count=0;
 
-        for(int n:nums)
+        for(int i=0;i<nums.length;i++)
         {
-            dict.put(n,dict.getOrDefault(n,0)+1);
-        }
-        int maxFreq=0;
-        int major=0;
-
-        for(int key : dict.keySet())
-        {
-            if(dict.get(key)>maxFreq)
+            if(count==0)
             {
-                maxFreq=dict.get(key);
-                major=key;
+                element=nums[i];
             }
-        }   
-        return major;
+
+            if(element==nums[i])
+            {
+                count++;
+            }
+            else
+            {
+                count--;
+            }
+        }
+        return element;
     }
 }
