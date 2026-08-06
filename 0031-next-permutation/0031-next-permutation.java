@@ -15,11 +15,15 @@ class Solution
         }
         if(index == -1)
         {
-            for(int i=0;i<size/2;i++)
+            int start=0;
+            int end=size-1;
+            while(start<end)
             {
-                int temp=nums[i];
-                nums[i]=nums[size-1-i];
-                nums[size-1-i]=temp;
+                int temp=nums[start];
+                nums[start]=nums[end];
+                nums[end]=temp;
+                start++;
+                end--;
             }
             return;
         }
