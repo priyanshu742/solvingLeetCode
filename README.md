@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/priyanshu742/solvingLeetCode/tree/master/0009-palindrome-number) |
+| [0048-rotate-image](https://github.com/priyanshu742/solvingLeetCode/tree/master/0048-rotate-image) |
 | [0509-fibonacci-number](https://github.com/priyanshu742/solvingLeetCode/tree/master/0509-fibonacci-number) |
 ## Dynamic Programming
 |  |
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/priyanshu742/solvingLeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/priyanshu742/solvingLeetCode/tree/master/0031-next-permutation) |
+| [0048-rotate-image](https://github.com/priyanshu742/solvingLeetCode/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/priyanshu742/solvingLeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0136-single-number](https://github.com/priyanshu742/solvingLeetCode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/priyanshu742/solvingLeetCode/tree/master/0169-majority-element) |
@@ -59,5 +61,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/priyanshu742/solvingLeetCode/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/priyanshu742/solvingLeetCode/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
