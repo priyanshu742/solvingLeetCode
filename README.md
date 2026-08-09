@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/priyanshu742/solvingLeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/priyanshu742/solvingLeetCode/tree/master/0031-next-permutation) |
 | [0048-rotate-image](https://github.com/priyanshu742/solvingLeetCode/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/priyanshu742/solvingLeetCode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/priyanshu742/solvingLeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0136-single-number](https://github.com/priyanshu742/solvingLeetCode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/priyanshu742/solvingLeetCode/tree/master/0169-majority-element) |
@@ -64,9 +65,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/priyanshu742/solvingLeetCode/tree/master/0048-rotate-image) |
+| [0054-spiral-matrix](https://github.com/priyanshu742/solvingLeetCode/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/priyanshu742/solvingLeetCode/tree/master/0073-set-matrix-zeroes) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/priyanshu742/solvingLeetCode/tree/master/0560-subarray-sum-equals-k) |
+## Simulation
+|  |
+| ------- |
+| [0054-spiral-matrix](https://github.com/priyanshu742/solvingLeetCode/tree/master/0054-spiral-matrix) |
 <!---LeetCode Topics End-->
