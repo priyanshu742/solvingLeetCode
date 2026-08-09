@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/priyanshu742/solvingLeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0136-single-number](https://github.com/priyanshu742/solvingLeetCode/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/priyanshu742/solvingLeetCode/tree/master/0169-majority-element) |
+| [0560-subarray-sum-equals-k](https://github.com/priyanshu742/solvingLeetCode/tree/master/0560-subarray-sum-equals-k) |
 ## Two Pointers
 |  |
 | ------- |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/priyanshu742/solvingLeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/priyanshu742/solvingLeetCode/tree/master/0169-majority-element) |
+| [0560-subarray-sum-equals-k](https://github.com/priyanshu742/solvingLeetCode/tree/master/0560-subarray-sum-equals-k) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -63,4 +65,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0048-rotate-image](https://github.com/priyanshu742/solvingLeetCode/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/priyanshu742/solvingLeetCode/tree/master/0073-set-matrix-zeroes) |
+## Prefix Sum
+|  |
+| ------- |
+| [0560-subarray-sum-equals-k](https://github.com/priyanshu742/solvingLeetCode/tree/master/0560-subarray-sum-equals-k) |
 <!---LeetCode Topics End-->
