@@ -2,23 +2,29 @@ class Solution
 {
     public List<Integer> majorityElement(int[] nums) 
     {
-        int reqFrequency=nums.length/3;
-        Map<Integer,Integer> dict= new HashMap<>();
+        // Brute
+        int size=nums.length;
         List<Integer> arr=new ArrayList<>();
 
-        for(int n: nums)
+        for(int i=0;i<size;i++)
         {
-            dict.put(n,dict.getOrDefault(n,0)+1);
-        }
-
-        for(int key: dict.keySet())
-        {
-            if(dict.get(key)>reqFrequency)
+            int count=0;
+            for(int j=0;j<size;j++)
             {
-                arr.add(key);
+                if(nums[j]==nums[i])
+                {
+                    count++;
+                }
+            }
+            if(count>size/3 && !arr.contains(nums[i]))
+            {
+                arr.add(nums[i]);
+            }
+            if(arr.size()==2)
+            {
+                break;
             }
         }
-        return arr;
-        
+        return arr;     
     }
 }
