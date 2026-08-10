@@ -2,23 +2,64 @@ class Solution
 {
     public List<Integer> majorityElement(int[] nums) 
     {
-        // optimised
+        // maximum optimised solution
         int reqFrequency=nums.length/3;
-        Map<Integer,Integer> dict= new HashMap<>();
+        int count1=0;
+        int count2=0;
+        int element1=Integer.MIN_VALUE;
+        int element2=Integer.MIN_VALUE;
+
         List<Integer> arr=new ArrayList<>();
 
         for(int n: nums)
         {
-            dict.put(n,dict.getOrDefault(n,0)+1);
-            if(dict.get(n)>reqFrequency && !arr.contains(n))
+            if(count1==0 && n!=element2)
             {
-                arr.add(n);
+                count1=1;
+                element1=n;
             }
-            if(arr.size()==2)
+            else if(count2==0 && n!=element1)
             {
-                break;
+                count2=1;
+                element2=n;
+            }
+            else if(n==element1)
+            {
+                count1++;
+            }
+            else if(n==element2)
+            {
+                count2++;
+            }
+            else
+            {
+                count1--;
+                count2--;
             }
         }
-        return arr; 
+
+        count1=0;
+        count2=0; 
+        for(int n:nums)
+        {
+            if(element1==n)
+            {
+                count1++;
+            }
+            if(element2==n)
+            {
+                count2++;
+            }
+        }
+
+        if(count1>reqFrequency)
+        {
+            arr.add(element1);
+        }            
+        if(count2>reqFrequency)
+        {
+            arr.add(element2); 
+        }
+        return arr;     
     }
 }
