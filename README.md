@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/priyanshu742/solvingLeetCode/tree/master/0031-next-permutation) |
 | [0048-rotate-image](https://github.com/priyanshu742/solvingLeetCode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/priyanshu742/solvingLeetCode/tree/master/0054-spiral-matrix) |
+| [0056-merge-intervals](https://github.com/priyanshu742/solvingLeetCode/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/priyanshu742/solvingLeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0118-pascals-triangle](https://github.com/priyanshu742/solvingLeetCode/tree/master/0118-pascals-triangle) |
 | [0136-single-number](https://github.com/priyanshu742/solvingLeetCode/tree/master/0136-single-number) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/priyanshu742/solvingLeetCode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/priyanshu742/solvingLeetCode/tree/master/0018-4sum) |
+| [0056-merge-intervals](https://github.com/priyanshu742/solvingLeetCode/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/priyanshu742/solvingLeetCode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/priyanshu742/solvingLeetCode/tree/master/0229-majority-element-ii) |
 ## Counting
@@ -88,4 +90,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/priyanshu742/solvingLeetCode/tree/master/0054-spiral-matrix) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/priyanshu742/solvingLeetCode/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
