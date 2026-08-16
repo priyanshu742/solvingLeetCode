@@ -3,9 +3,9 @@ class Solution
     public void merge(int[] nums1, int m, int[] nums2, int n) 
     {
         // optimal Solution without extra space
-        int p1=m-1;
-        int p2=n-1;
-        int p=m+n-1;
+        int p1=m-1; // pointing to the end of valid elements in nums1
+        int p2=n-1;  // pointing to the end of nums2
+        int p=m+n-1;  // pointing to the end of nums1
 
         while(p1>=0 && p2>=0)
         {
