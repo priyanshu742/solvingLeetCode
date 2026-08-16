@@ -2,12 +2,41 @@ class Solution
 {
     public void merge(int[] nums1, int m, int[] nums2, int n) 
     {
+        int left=0;
+        int right=0;
         int index=0;
-        for(int i=m;i<m+n;i++)
+        int temp[]=new int[m+n];
+        while(left<m && right<n)
         {
-            nums1[i]=nums2[index];
-            index++;
+            if(nums1[left]<nums2[right])
+            {
+                temp[index]=nums1[left];
+                index++;
+                left++;
+            }
+            else
+            {
+                temp[index]=nums2[right];
+                index++;
+                right++;
+            }
         }
-        Arrays.sort(nums1);
+        while(left<m)
+        {
+            temp[index]=nums1[left];
+            index++;
+            left++;
+        }
+        while(right<n)
+        {
+            temp[index]=nums2[right];
+            index++;
+            right++;
+        }
+        index=0;
+        for(int i=0;i<m+n;i++)
+        {
+            nums1[i]=temp[i];
+        }
     }
 }
