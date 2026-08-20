@@ -1,25 +1,23 @@
-class Solution
+class Solution 
 {
     public int maxProduct(int[] nums) 
     {
-        // optimal intutive
-        int size=nums.length;
-        int maximum=Integer.MIN_VALUE;
-        int prefix=1;
-        int suffix=1;
-        for(int i=0;i<size;i++)
+        // optimal kadane's algorithm
+        int maximum=nums[0];
+        int currentMax=nums[0];
+        int currentMin=nums[0];
+        for(int i=1;i<nums.length;i++)
         {
-            if(prefix==0)
+            if(nums[i]<0)
             {
-                prefix=1;
+                int temp=currentMax;
+                currentMax=currentMin;
+                currentMin=temp;
             }
-            if(suffix==0)
-            {
-                suffix=1;
-            }
-            prefix=prefix*nums[i];
-            suffix=suffix*nums[size-i-1];
-            maximum=Math.max(maximum,Math.max(prefix,suffix));
+            currentMax=Math.max(nums[i],currentMax*nums[i]);
+            currentMin=Math.min(nums[i],currentMin*nums[i]);
+
+            maximum=Math.max(maximum,currentMax);
         }
         return maximum;
     }
