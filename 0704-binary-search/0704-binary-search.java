@@ -3,8 +3,8 @@ class Solution
     public int search(int[] nums, int target) 
     {
         // recursive approach
-        int size=nums.length-1;
-        return binarySearch(nums,0,size,target);
+        int high=nums.length-1;
+        return binarySearch(nums,0,high,target);
     }
     public int binarySearch(int nums[],int low,int high,int target)
     {
@@ -21,10 +21,9 @@ class Solution
         {
             return binarySearch(nums,mid+1,high,target);
         }
-        else if(target<nums[mid])
+        else
         {
             return binarySearch(nums,low,mid-1,target);
         }
-        return -1;
     }
 }
