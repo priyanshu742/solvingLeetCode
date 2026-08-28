@@ -12,7 +12,9 @@ class Solution
             {
                 return mid;
             }
-            else if(nums[low]<=nums[mid])
+            
+            // If the left half is sorted
+            if(nums[low]<=nums[mid])
             {
                 if(nums[low]<=k && k<=nums[mid])
                 {
@@ -23,6 +25,7 @@ class Solution
                     low=mid+1;
                 }
             }
+            // If the right half is sorted
             else
             {
                 if(nums[mid]<=k && k<=nums[high])
