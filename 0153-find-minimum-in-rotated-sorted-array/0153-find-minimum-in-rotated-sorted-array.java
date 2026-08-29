@@ -8,6 +8,16 @@ class Solution
         int min=Integer.MAX_VALUE;
         while(low<=high)
         {
+            /* 
+            If the search space is already sorted
+            then always arr.get(low) will be smaller
+            in the search space 
+            */
+            if(nums[low]<=nums[high])
+            {
+                min=Math.min(min,nums[low]);
+                break;
+            }
             int mid=low+(high-low)/2;
             if(nums[low]<=nums[mid])
             {
