@@ -19,6 +19,14 @@ class Solution
                 break;
             }
             int mid=low+(high-low)/2;
+            
+            if(nums[low]==nums[mid] && nums[mid]==nums[high])
+            {
+                low=low+1;
+                high=high-1;
+                continue;
+            }
+            
             if(nums[low]<=nums[mid])
             {
                 min=Math.min(nums[low],min);
