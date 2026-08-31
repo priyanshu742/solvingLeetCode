@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/priyanshu742/solvingLeetCode/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/priyanshu742/solvingLeetCode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/priyanshu742/solvingLeetCode/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/priyanshu742/solvingLeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/priyanshu742/solvingLeetCode/tree/master/0001-two-sum) |
 | [0073-set-matrix-zeroes](https://github.com/priyanshu742/solvingLeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/priyanshu742/solvingLeetCode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/priyanshu742/solvingLeetCode/tree/master/0229-majority-element-ii) |
