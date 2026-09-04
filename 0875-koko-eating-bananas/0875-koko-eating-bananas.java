@@ -17,7 +17,7 @@ class Solution
 
             for(int n: piles)
             {
-                totalHours+=((long)n+mid-1)/mid;
+                totalHours=totalHours+((long)n+mid-1)/mid;
             }
 
             if(totalHours<=h)
