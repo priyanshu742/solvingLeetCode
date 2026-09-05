@@ -19,7 +19,7 @@ class Solution
         while(low<=high)
         {
             int mid=low+(high-low)/2;
-            int bouquets=possible(bloomDay,mid,m,k,bloomDay.length);
+            int bouquets=possible(bloomDay,mid,k,bloomDay.length);
 
             if(bouquets>=m)
             {
@@ -33,7 +33,7 @@ class Solution
         return low;
     }
 
-    public int possible(int bloomDay[],int day,int required,int group,int size)
+    public int possible(int bloomDay[],int day,int group,int size)
     {
         int count=0;
         int bouquets=0;
