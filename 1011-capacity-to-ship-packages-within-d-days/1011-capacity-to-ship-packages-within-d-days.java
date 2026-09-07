@@ -6,7 +6,10 @@ class Solution
         int high=0;
         for(int n: weights)
         {
-            low=Math.max(n,low);
+            if(n>low)
+            {
+                low=n;
+            }
             high=high+n;
         }
         while(low<=high)
