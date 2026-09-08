@@ -18,7 +18,6 @@ class Solution
             int mid=low+(high-low)/2;
             if(calculate(arr,mid)>=k)
             {
-                ans=mid;
                 high=mid-1;
             }
             else
@@ -26,7 +25,7 @@ class Solution
                 low=mid+1;
             }
         }
-        return ans;
+        return low;
     }
 
     public static int calculate(int arr[],int mid)
