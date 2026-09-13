@@ -2,44 +2,77 @@ class Solution
 {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) 
     {
-        int res[]=new int[nums1.length+nums2.length];
-        int index=0;
+        int count=0;
+        int n1=nums1.length;
+        int n2=nums2.length;
+        int n=n1+n2;
         int i=0;
         int j=0;
-        while(i<nums1.length && j<nums2.length)
+        int ele1=-1;
+        int ele2=-1;
+        int ind1=n/2;
+        int ind2=n/2-1;
+
+        while(i<n1 && j<n2)
         {
             if(nums1[i]<nums2[j])
             {
-                res[index]=nums1[i];
-                index++;
+                if(count==ind1)
+                {
+                    ele1=nums1[i];
+                }
+                if(count==ind2)
+                {
+                    ele2=nums1[i];
+                }
                 i++;
+                count++;
             }
             else
             {
-                res[index]=nums2[j];
-                index++;
+                if(count==ind1)
+                {
+                    ele1=nums2[j];
+                }
+                if(count==ind2)
+                {
+                    ele2=nums2[j];
+                }
                 j++;
+                count++;
             }
         }
-        while(i<nums1.length)
+        while(i<n1)
         {
-            res[index]=nums1[i];
-            index++;
+            if(count==ind1)
+            {  
+                ele1=nums1[i];
+            }
+            if(count==ind2)
+            {
+                ele2=nums1[i];
+            }
             i++;
+            count++;
         }
-        while(j<nums2.length)
+        while(j<n2)
         {
-            res[index]=nums2[j];
-            index++;
+            if(count==ind1)
+            {
+                ele1=nums2[j];
+            }
+            if(count==ind2)
+            {
+                ele2=nums2[j];
+            }
             j++;
+            count++;
         }
-        int len=res.length;
-        if(len%2!=0)
+
+        if(n%2!=0)
         {
-            return res[len/2];
+            return ele1;
         }
-        int x=res[res.length/2];
-        int y=res[(res.length/2)-1];
-        return (x+y)/2.0;
+        return (ele1+ele2)/2.0;
     }
 }
