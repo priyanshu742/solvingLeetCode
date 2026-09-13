@@ -4,34 +4,34 @@ class Solution
     {
         int res[]=new int[nums1.length+nums2.length];
         int index=0;
-        int m=0;
-        int n=0;
-        while(m<nums1.length && n<nums2.length)
+        int i=0;
+        int j=0;
+        while(i<nums1.length && j<nums2.length)
         {
-            if(nums1[m]<nums2[n])
+            if(nums1[i]<nums2[j])
             {
-                res[index]=nums1[m];
+                res[index]=nums1[i];
                 index++;
-                m++;
+                i++;
             }
             else
             {
-                res[index]=nums2[n];
+                res[index]=nums2[j];
                 index++;
-                n++;
+                j++;
             }
         }
-        while(m<nums1.length)
+        while(i<nums1.length)
         {
-            res[index]=nums1[m];
+            res[index]=nums1[i];
             index++;
-            m++;
+            i++;
         }
-        while(n<nums2.length)
+        while(j<nums2.length)
         {
-            res[index]=nums2[n];
+            res[index]=nums2[j];
             index++;
-            n++;
+            j++;
         }
         int len=res.length;
         if(len%2!=0)
