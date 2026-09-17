@@ -2,16 +2,25 @@ class Solution
 {
     public boolean searchMatrix(int[][] matrix, int target) 
     {
-
         int row=matrix.length;
-        int column=matrix[0].length;
         for(int i=0;i<row;i++)
         {
-            for(int j=0;j<column;j++)
+            int low=0;
+            int high=matrix[i].length-1;
+            while(low<=high)
             {
-                if(matrix[i][j]==target)
+                int mid=low+(high-low)/2;
+                if(matrix[i][mid]==target)
                 {
                     return true;
+                }
+                else if(matrix[i][mid]>target)
+                {
+                    high=mid-1;
+                }
+                else
+                {
+                    low=mid+1;
                 }
             }
         }
