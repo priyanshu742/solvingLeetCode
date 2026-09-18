@@ -1,3 +1,5 @@
+
+
 class Solution 
 {
     // optimal
@@ -29,10 +31,6 @@ class Solution
             {
                 high=mid-1;
             }
-            else if(arr[mid]<arr[mid+1])
-            {
-                low=mid+1;
-            } 
             else
             {
                 low=mid+1;
