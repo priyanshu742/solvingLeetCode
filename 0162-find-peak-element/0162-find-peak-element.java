@@ -1,10 +1,10 @@
 class Solution 
 {
+    // brute
     public int findPeakElement(int[] arr) 
     {
-        int low=1;
-        int high=arr.length-2;
-        if(arr.length==1)
+        int high=arr.length;
+        if(high==1)
         {
             return 0;
         }
@@ -12,31 +12,17 @@ class Solution
         {
             return 0;
         }
-        if(arr[arr.length-2]<arr[arr.length-1])
+        if(arr[high-2]<arr[high-1])
         {
-            return arr.length-1;
+            return high-1;
         }
-
-        while(low<=high)
+        for(int i=1;i<high-1;i++)
         {
-            int mid=low+(high-low)/2;
-            if(arr[mid-1]<arr[mid] && arr[mid+1]<arr[mid])
+            if(arr[i-1]<arr[i] && arr[i]>arr[i+1])
             {
-                return mid;
+                return i;
             }
-            else if(arr[mid-1]>arr[mid])
-            {
-                high=mid-1;
-            }
-            else if(arr[mid]<arr[mid+1])
-            {
-                low=mid+1;
-            } 
-            else
-            {
-                low=mid+1;
-            }
-        }
-        return-1;
+        }  
+        return -1;
     }
 }
