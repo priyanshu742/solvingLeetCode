@@ -8,7 +8,7 @@ class Solution
         {
             if(s.charAt(i)=='(')
             {
-                if(count>0)
+                if(count!=0)
                 {
                     ans.append(s.charAt(i));
                 }
@@ -17,7 +17,7 @@ class Solution
             if(s.charAt(i)==')')
             {
                 count--;
-                if(count>0)
+                if(count!=0)
                 {
                     ans.append(s.charAt(i));
                 }
