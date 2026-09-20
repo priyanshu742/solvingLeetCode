@@ -14,7 +14,7 @@ class Solution
                 }
                 count++;
             }
-            if(s.charAt(i)==')')
+            else if(s.charAt(i)==')')
             {
                 count--;
                 if(count!=0)
