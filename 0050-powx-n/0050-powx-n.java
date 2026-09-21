@@ -2,22 +2,21 @@ class Solution
 {
     public double myPow(double x, int n) 
     {
-        int N=n;
-        if(N<0)
+        if(n<0)
         {
             x=1/x;
-            N=-N;
+            n=-n;
         }
-        return power(x,N);
+        return power(x,n);
     }
-    public double power(double x,int N)
+    public double power(double x,int n)
     {
-        if(N==0)
+        if(n==0)
         {
             return 1;
         }
-        double half=power(x,N/2);
-        if(N%2==0)
+        double half=power(x,n/2);
+        if(n%2==0)
         {
             return half*half;
         }
