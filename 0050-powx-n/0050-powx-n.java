@@ -2,7 +2,7 @@ class Solution
 {
     public double myPow(double x, int n) 
     {
-        long N=n;
+        int N=n;
         if(N<0)
         {
             x=1/x;
@@ -10,7 +10,7 @@ class Solution
         }
         return power(x,N);
     }
-    public double power(double x,long N)
+    public double power(double x,int N)
     {
         if(N==0)
         {
