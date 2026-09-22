@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/priyanshu742/solvingLeetCode/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/priyanshu742/solvingLeetCode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/priyanshu742/solvingLeetCode/tree/master/0050-powx-n) |
+| [0204-count-primes](https://github.com/priyanshu742/solvingLeetCode/tree/master/0204-count-primes) |
 | [0507-perfect-number](https://github.com/priyanshu742/solvingLeetCode/tree/master/0507-perfect-number) |
 | [0509-fibonacci-number](https://github.com/priyanshu742/solvingLeetCode/tree/master/0509-fibonacci-number) |
 ## Dynamic Programming
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/priyanshu742/solvingLeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/priyanshu742/solvingLeetCode/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/priyanshu742/solvingLeetCode/tree/master/0169-majority-element) |
+| [0204-count-primes](https://github.com/priyanshu742/solvingLeetCode/tree/master/0204-count-primes) |
 | [0229-majority-element-ii](https://github.com/priyanshu742/solvingLeetCode/tree/master/0229-majority-element-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/priyanshu742/solvingLeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0410-split-array-largest-sum](https://github.com/priyanshu742/solvingLeetCode/tree/master/0410-split-array-largest-sum) |
@@ -195,4 +197,24 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1021-remove-outermost-parentheses](https://github.com/priyanshu742/solvingLeetCode/tree/master/1021-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/priyanshu742/solvingLeetCode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/priyanshu742/solvingLeetCode/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/priyanshu742/solvingLeetCode/tree/master/0204-count-primes) |
+## Primality Test
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/priyanshu742/solvingLeetCode/tree/master/0204-count-primes) |
+## Sieve Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/priyanshu742/solvingLeetCode/tree/master/0204-count-primes) |
+## Prime Number Sieve
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/priyanshu742/solvingLeetCode/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
