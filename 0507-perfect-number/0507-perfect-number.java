@@ -12,7 +12,7 @@ class Solution
             if(num%i==0)
             {
                 sum=sum+i;
-                if(i*i!=num)
+                if(num/i!=i)
                 {
                     sum=sum+num/i;
                 }
