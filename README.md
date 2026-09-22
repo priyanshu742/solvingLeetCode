@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/priyanshu742/solvingLeetCode/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/priyanshu742/solvingLeetCode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/priyanshu742/solvingLeetCode/tree/master/0050-powx-n) |
+| [0507-perfect-number](https://github.com/priyanshu742/solvingLeetCode/tree/master/0507-perfect-number) |
 | [0509-fibonacci-number](https://github.com/priyanshu742/solvingLeetCode/tree/master/0509-fibonacci-number) |
 ## Dynamic Programming
 |  |
