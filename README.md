@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/priyanshu742/solvingLeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/priyanshu742/solvingLeetCode/tree/master/0031-next-permutation) |
 | [0088-merge-sorted-array](https://github.com/priyanshu742/solvingLeetCode/tree/master/0088-merge-sorted-array) |
+| [0344-reverse-string](https://github.com/priyanshu742/solvingLeetCode/tree/master/0344-reverse-string) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0344-reverse-string](https://github.com/priyanshu742/solvingLeetCode/tree/master/0344-reverse-string) |
 | [1021-remove-outermost-parentheses](https://github.com/priyanshu742/solvingLeetCode/tree/master/1021-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/priyanshu742/solvingLeetCode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Stack
