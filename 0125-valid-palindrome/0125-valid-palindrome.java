@@ -2,24 +2,28 @@ class Solution
 {
     public boolean isPalindrome(String s) 
     {
-        String check=s.toLowerCase().replaceAll("[^a-z0-9]","");
-        char []charArray=check.toCharArray();
-
-        return check.equals(reverse(charArray,0,check.length()-1));
+        return check(s,0,s.length()-1);
     }
-    public String reverse(char[]arr ,int low,int high)
+    public boolean check(String s,int low,int high)
     {
         if(low>=high)
         {
-            return new String(arr);
+            return true;
         }
-        else
+        char left=s.charAt(low);
+        char right=s.charAt(high);
+        if(!Character.isLetterOrDigit(left))
         {
-            char temp=arr[low];
-            arr[low]=arr[high];
-            arr[high]=temp;
-
-            return reverse(arr,low+1,high-1);
-        } 
+            return check(s,low+1,high);
+        }
+        if(!Character.isLetterOrDigit(right))
+        {
+            return check(s,low,high-1);
+        }
+        if(Character.toLowerCase(left)!=Character.toLowerCase(right))
+        {
+            return false;
+        }
+        return check(s,low+1,high-1);
     }   
 }
