@@ -2,12 +2,7 @@ class Solution
 {
     public int fib(int n) 
     {
-        //optimal recursive;
-        int memo[]=new int[n+1];
-        return fibHelper(n,memo);
-    }
-    public int fibHelper(int n,int []memo)
-    {
+        // iterative
         if(n==0)
         {
             return 0;
@@ -16,11 +11,15 @@ class Solution
         {
             return 1;
         }
-        if(memo[n]!=0)
+        int prev2=0;
+        int prev1=1;
+        int current=0;
+        for(int i=2;i<=n;i++)
         {
-            return memo[n];
+            current=prev2+prev1;
+            prev2=prev1;
+            prev1=current;
         }
-        memo[n]=fibHelper(n-1,memo)+fibHelper(n-2,memo);
-        return memo[n];
+        return current;
     }
 }
