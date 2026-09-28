@@ -1,18 +1,26 @@
 class Solution 
 {
     public int fib(int n) 
-    {  //your code goes here
-        if(n==1)
-        {
-            return 1;
-        }
+    {
+        //optimal recursive;
+        int memo[]=new int[n+1];
+        return fibHelper(n,memo);
+    }
+    public int fibHelper(int n,int []memo)
+    {
         if(n==0)
         {
             return 0;
         }
-        else
+        if(n==1)
         {
-            return fib(n-1)+fib(n-2);
+            return 1;
         }
+        if(memo[n]!=0)
+        {
+            return memo[n];
+        }
+        memo[n]=fibHelper(n-1,memo)+fibHelper(n-2,memo);
+        return memo[n];
     }
 }
