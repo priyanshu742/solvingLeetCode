@@ -2,8 +2,8 @@ class Solution
 {
     public boolean isPalindrome(String s) 
     {
-        String str=s.toLowerCase().replaceAll("[^a-z0-9]","");
-        return check(str,0,str.length()-1);
+        // String str=s.toLowerCase().replaceAll("[^a-z0-9]","");
+        return check(s,0,s.length()-1);
     }
     public boolean check(String s,int low,int high)
     {
@@ -21,7 +21,7 @@ class Solution
         {
             return check(s,low,high-1);
         }
-        if(left!=right)
+        if(Character.toLowerCase(left)!=Character.toLowerCase(right))
         {
             return false;
         }
