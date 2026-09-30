@@ -9,14 +9,16 @@ class Solution
             if(s.charAt(i)=='(')
             {
                 count++;
+                if(count>max)
+                {
+                    max=count;
+                }
             }
-            if(s.charAt(i)==')')
+            else if(s.charAt(i)==')')
             {
                 count--;
             }
-            max=Math.max(count,max);
         }
         return max;
-        
     }
 }
