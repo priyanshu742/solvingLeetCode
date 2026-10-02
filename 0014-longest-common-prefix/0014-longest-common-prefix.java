@@ -6,7 +6,7 @@ class Solution
         {
             return "";
         }
-        int low=1;
+        int low=0;
         int ans=0;
         int high=Integer.MAX_VALUE;
         for(String s : strs)
