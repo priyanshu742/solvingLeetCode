@@ -10,10 +10,10 @@ class Solution
         {
             return true;
         }
-        int n=goal.length();
         int l=s.length();
+        int counter=l;
         char arr[]=s.toCharArray();
-        while(n!=0)
+        while(counter!=0)
         {
             char last=arr[0];
             for(int i=0;i<l-1;i++)
@@ -25,7 +25,7 @@ class Solution
             {
                 return true;
             }
-            n--;
+            counter--;
         }
         return false;
     }
