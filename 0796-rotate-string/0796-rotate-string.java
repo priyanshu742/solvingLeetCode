@@ -11,6 +11,6 @@ class Solution
             return true;
         }
         String concat=s+s;
-        return s.contains(goal);
+        return concat.contains(goal);
     }
 }
