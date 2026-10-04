@@ -10,22 +10,18 @@ class Solution
         {
             return true;
         }
-        int l=s.length();
-        int counter=l;
-        char arr[]=s.toCharArray();
-        while(counter!=0)
+        int n=s.length();
+        StringBuilder str=new StringBuilder(s);
+        while(n!=0)
         {
-            char last=arr[0];
-            for(int i=0;i<l-1;i++)
-            {
-                arr[i]=arr[i+1];
-            }
-            arr[l-1]=last;
-            if(new String(arr).equals(goal))
+            char ch=str.charAt(0);
+            str.deleteCharAt(0);
+            str.append(ch);
+            if(str.toString().equals(goal))
             {
                 return true;
             }
-            counter--;
+            n--;
         }
         return false;
     }
