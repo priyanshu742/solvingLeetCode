@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/priyanshu742/solvingLeetCode/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/priyanshu742/solvingLeetCode/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/priyanshu742/solvingLeetCode/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/priyanshu742/solvingLeetCode/tree/master/0242-valid-anagram) |
 | [0560-subarray-sum-equals-k](https://github.com/priyanshu742/solvingLeetCode/tree/master/0560-subarray-sum-equals-k) |
 ## Divide and Conquer
 |  |
@@ -108,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/priyanshu742/solvingLeetCode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/priyanshu742/solvingLeetCode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/priyanshu742/solvingLeetCode/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/priyanshu742/solvingLeetCode/tree/master/0242-valid-anagram) |
 | [1552-magnetic-force-between-two-balls](https://github.com/priyanshu742/solvingLeetCode/tree/master/1552-magnetic-force-between-two-balls) |
 ## Counting
 |  |
@@ -195,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/priyanshu742/solvingLeetCode/tree/master/0014-longest-common-prefix) |
 | [0125-valid-palindrome](https://github.com/priyanshu742/solvingLeetCode/tree/master/0125-valid-palindrome) |
 | [0205-isomorphic-strings](https://github.com/priyanshu742/solvingLeetCode/tree/master/0205-isomorphic-strings) |
+| [0242-valid-anagram](https://github.com/priyanshu742/solvingLeetCode/tree/master/0242-valid-anagram) |
 | [0344-reverse-string](https://github.com/priyanshu742/solvingLeetCode/tree/master/0344-reverse-string) |
 | [0796-rotate-string](https://github.com/priyanshu742/solvingLeetCode/tree/master/0796-rotate-string) |
 | [1021-remove-outermost-parentheses](https://github.com/priyanshu742/solvingLeetCode/tree/master/1021-remove-outermost-parentheses) |
