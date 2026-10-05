@@ -2,25 +2,28 @@ class Solution
 {
     public boolean isAnagram(String s, String t) 
     {
-        // optimal
+
+        // better
         if(s.length()!=t.length())
         {
             return false;
         }
-        int charArray[]=new int[26];
+        Map<Character,Integer> mapS=new HashMap<>();
+        Map<Character,Integer> mapT=new HashMap<>();
+
         for(int i=0;i<s.length();i++)
         {
-            charArray[s.charAt(i)-'a']++;
-            charArray[t.charAt(i)-'a']--;
+            mapS.put(s.charAt(i),mapS.getOrDefault(s.charAt(i),0)+1);
+            mapT.put(t.charAt(i),mapT.getOrDefault(t.charAt(i),0)+1);
         }
-        for(int count : charArray)
+        for(char ch : mapS.keySet())
         {
-            if(count!=0)
+            if(!mapT.containsKey(ch) || !mapS.get(ch).equals(mapT.get(ch)))
             {
                 return false;
             }
         }
         return true;
+    
     }
 }
-    
