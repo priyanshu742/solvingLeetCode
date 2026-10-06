@@ -4,7 +4,7 @@ class Solution
     {
         StringBuilder sb=new StringBuilder();
         Map<Character,Integer> dict=new HashMap<>();
-        List<Character> arr[]=new ArrayList[s.length()+1];
+        List<Character> bucket[]=new ArrayList[s.length()+1];
         for(char c : s.toCharArray())
         {
             dict.put(c,dict.getOrDefault(c,0)+1);
@@ -12,17 +12,17 @@ class Solution
         for(char c : dict.keySet())
         {
             int frequency=dict.get(c);
-            if(arr[frequency]==null)
+            if(bucket[frequency]==null)
             {
-                arr[frequency]=new ArrayList<>();
+                bucket[frequency]=new ArrayList<>();
             }
-            arr[frequency].add(c);
+            bucket[frequency].add(c);
         }
-        for(int i=arr.length-1;i>=1;i--)
+        for(int i=bucket.length-1;i>=1;i--)
         {
-            if(arr[i]!=null)
+            if(bucket[i]!=null)
             {
-                 for(Character c : arr[i])
+                 for(Character c : bucket[i])
                 {
                     for(int j=0;j<i;j++)
                     {
