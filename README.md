@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/priyanshu742/solvingLeetCode/tree/master/0009-palindrome-number) |
 | [0048-rotate-image](https://github.com/priyanshu742/solvingLeetCode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/priyanshu742/solvingLeetCode/tree/master/0050-powx-n) |
+| [0189-rotate-array](https://github.com/priyanshu742/solvingLeetCode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/priyanshu742/solvingLeetCode/tree/master/0204-count-primes) |
 | [0507-perfect-number](https://github.com/priyanshu742/solvingLeetCode/tree/master/0507-perfect-number) |
 | [0509-fibonacci-number](https://github.com/priyanshu742/solvingLeetCode/tree/master/0509-fibonacci-number) |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/priyanshu742/solvingLeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/priyanshu742/solvingLeetCode/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/priyanshu742/solvingLeetCode/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/priyanshu742/solvingLeetCode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/priyanshu742/solvingLeetCode/tree/master/0204-count-primes) |
 | [0229-majority-element-ii](https://github.com/priyanshu742/solvingLeetCode/tree/master/0229-majority-element-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/priyanshu742/solvingLeetCode/tree/master/0240-search-a-2d-matrix-ii) |
@@ -78,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/priyanshu742/solvingLeetCode/tree/master/0031-next-permutation) |
 | [0088-merge-sorted-array](https://github.com/priyanshu742/solvingLeetCode/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/priyanshu742/solvingLeetCode/tree/master/0125-valid-palindrome) |
+| [0189-rotate-array](https://github.com/priyanshu742/solvingLeetCode/tree/master/0189-rotate-array) |
 | [0344-reverse-string](https://github.com/priyanshu742/solvingLeetCode/tree/master/0344-reverse-string) |
 ## Bit Manipulation
 |  |
