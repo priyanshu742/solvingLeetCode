@@ -2,16 +2,17 @@ class Solution
 {
     public int removeDuplicates(int[] nums) 
     {
-        int uniquecount=1;
-
-        for(int i=1;i<nums.length;i++)
+        Map<Integer,Integer> dict=new LinkedHashMap<>();
+        for(int n : nums)
         {
-            if(nums[i]!=nums[i-1])
-            {
-                nums[uniquecount]=nums[i];
-                uniquecount++;
-            }
+            dict.put(n,dict.getOrDefault(n,0)+1);
         }
-        return uniquecount;
+        int index=0;
+        for(int n: dict.keySet())
+        {
+            nums[index]=n;
+            index++;
+        }
+        return index; 
     }
 }
