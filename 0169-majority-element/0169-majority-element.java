@@ -2,17 +2,16 @@ class Solution
 {
     public int majorityElement(int[] nums) 
     {
-        int element=0;
+        // optimal
         int count=0;
-
+        int major=Integer.MIN_VALUE;
         for(int i=0;i<nums.length;i++)
         {
             if(count==0)
             {
-                element=nums[i];
+                major=nums[i];
             }
-
-            if(element==nums[i])
+            if(major==nums[i])
             {
                 count++;
             }
@@ -21,6 +20,6 @@ class Solution
                 count--;
             }
         }
-        return element;
+        return major;
     }
 }
