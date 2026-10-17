@@ -2,17 +2,17 @@ class Solution
 {
     public int[] twoSum(int[] nums, int target) 
     {
-        // brute
+        // optimal
+        Map<Integer,Integer> record=new HashMap<>();
         for(int i=0;i<nums.length;i++)
         {
-            for(int j=i+1;j<nums.length;j++)
+            int prefix=target-nums[i];
+            if(record.containsKey(prefix))
             {
-                if(nums[i]+nums[j]==target)
-                {
-                    return new int[]{i,j};
-                }
+                return new int[]{i,record.get(prefix)};
             }
+            record.put(nums[i],i);
         }
-        return new int[]{}; // dummy return;
+        return new int[]{}; // dummy return; 
     }
 }
