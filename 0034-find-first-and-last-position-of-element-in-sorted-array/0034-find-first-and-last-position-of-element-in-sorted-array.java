@@ -3,56 +3,60 @@ class Solution
     public int[] searchRange(int[] nums, int target) 
     {
         int size=nums.length;
-        int lb=lowerBound(nums,size,target);
-        
-        if(lb==size || nums[lb]!=target)
+        int first=firstOccurence(nums,size,target);
+        if(first==-1)
         {
             return new int[]{-1,-1};
         }
-
-        return new int[]{lb,upperBound(nums,size,target)-1};
+        return new int[]{first,lastOccurence(nums,size,target)};
     }
 
-    public int lowerBound(int nums[],int size,int target)
+    int firstOccurence(int nums[],int size,int target)
     {
         int low=0;
         int high=size-1;
-        int ans=size;
+        int first=-1;
         while(low<=high)
         {
             int mid=low+(high-low)/2;
-            if(nums[mid]>=target)
+            if(nums[mid]==target)
             {
-                ans=mid;
+                first=mid;
                 high=mid-1;
             }
-            else
+            else if(nums[mid]<target)
             {
                 low=mid+1;
             }
+            else
+            {
+                high=mid-1;    
+            }
         }
-        return ans;
+        return first;
     }
-
-    public int upperBound(int nums[],int size,int target)
+    int lastOccurence(int nums[],int size,int target)
     {
         int low=0;
         int high=size-1;
-        int ans=nums.length;
-
+        int last=-1;
         while(low<=high)
         {
             int mid=low+(high-low)/2;
-            if(nums[mid]>target)
+            if(nums[mid]==target)
             {
-                ans=mid;
-                high=mid-1;
+                last=mid;
+                low=mid+1;
             }
-            else
+            else if(nums[mid]<target)
             {
                 low=mid+1;
             }
+            else
+            {
+                high=mid-1;
+            }
         }
-        return ans;
+        return last;
     }
 }
