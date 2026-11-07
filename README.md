@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/priyanshu742/solvingLeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0118-pascals-triangle](https://github.com/priyanshu742/solvingLeetCode/tree/master/0118-pascals-triangle) |
 | [0152-maximum-product-subarray](https://github.com/priyanshu742/solvingLeetCode/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/priyanshu742/solvingLeetCode/tree/master/0410-split-array-largest-sum) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/priyanshu742/solvingLeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0015-3sum](https://github.com/priyanshu742/solvingLeetCode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/priyanshu742/solvingLeetCode/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/priyanshu742/solvingLeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
@@ -205,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/priyanshu742/solvingLeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0008-string-to-integer-atoi](https://github.com/priyanshu742/solvingLeetCode/tree/master/0008-string-to-integer-atoi) |
 | [0013-roman-to-integer](https://github.com/priyanshu742/solvingLeetCode/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/priyanshu742/solvingLeetCode/tree/master/0014-longest-common-prefix) |
@@ -263,4 +266,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/priyanshu742/solvingLeetCode/tree/master/0451-sort-characters-by-frequency) |
+## Manacher
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/priyanshu742/solvingLeetCode/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
