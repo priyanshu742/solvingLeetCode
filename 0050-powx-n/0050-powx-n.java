@@ -2,6 +2,7 @@ class Solution
 {
     public double myPow(double x, int n) 
     {
+        // optimal with recursion
         long M=n;
         int negative=0;
         if(M<0)
@@ -23,11 +24,12 @@ class Solution
         {
             return ans;
         }
+        // N is odd
         if(M%2==1)
         {
             ans=ans*x;
-            return pow(x,M-1,ans);
         }
+        // N is even
         x=x*x;
         return pow(x,M/2,ans);
     }
