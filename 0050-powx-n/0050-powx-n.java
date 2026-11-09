@@ -3,8 +3,10 @@ class Solution
     public double myPow(double x, int n) 
     {
         long N=n;
+        int negative=0;
         if(N<0)
         {
+            negative=1;
             N=-N;
         }
         double ans=1;
@@ -21,7 +23,7 @@ class Solution
                 x=x*x;
             }
         }
-        if(n<0)
+        if(negative==1)
         {
             ans=1/ans;
         }
